@@ -1,4 +1,5 @@
 package kss;
+
 /*
  * Korean Sentence Splitter
  * Split Korean text into sentences using heuristic algorithm.
@@ -22,188 +23,47 @@ public class Kss {
         this.kss = new Backend();
     }
 
-    public ArrayList<String> splitSentences(
-        String text,
-        boolean useHeuristic,
-        boolean useQuotesBracketProcessing,
-        int maxRecoverStep,
-        int maxRecoverLength
-    ) {
-        return this.kss.splitSentences(
-            text,
-            useHeuristic,
-            useQuotesBracketProcessing,
-            maxRecoverStep,
-            maxRecoverLength,
-            0,
-            true
-        );
+    public ArrayList<String> splitSentences(String text, boolean useHeuristic, boolean useQuotesBracketProcessing, int maxRecoverStep, int maxRecoverLength) {
+        throw new UnsupportedOperationException("STUB: not implemented");
     }
 
-    public ArrayList<String> splitSentences(
-        String text,
-        boolean useHeuristic,
-        boolean useQuotesBracketProcessing,
-        int maxRecoverStep
-    ) {
-        return this.kss.splitSentences(
-            text,
-            useHeuristic,
-            useQuotesBracketProcessing,
-            maxRecoverStep,
-            20000,
-            0,
-            true
-        );
+    public ArrayList<String> splitSentences(String text, boolean useHeuristic, boolean useQuotesBracketProcessing, int maxRecoverStep) {
+        throw new UnsupportedOperationException("STUB: not implemented");
     }
 
-    public ArrayList<String> splitSentences(
-        String text,
-        boolean useHeuristic,
-        boolean useQuotesBracketProcessing
-    ) {
-        return this.kss.splitSentences(
-            text,
-            useHeuristic,
-            useQuotesBracketProcessing,
-            5,
-            20000,
-            0,
-            true
-        );
+    public ArrayList<String> splitSentences(String text, boolean useHeuristic, boolean useQuotesBracketProcessing) {
+        throw new UnsupportedOperationException("STUB: not implemented");
     }
 
-    public ArrayList<String> splitSentences(
-        String text,
-        boolean useHeuristic
-    ) {
-        return this.kss.splitSentences(
-            text,
-            useHeuristic,
-            true,
-            5,
-            20000,
-            0,
-            true
-        );
+    public ArrayList<String> splitSentences(String text, boolean useHeuristic) {
+        throw new UnsupportedOperationException("STUB: not implemented");
     }
 
-    public ArrayList<String> splitSentences(
-        String text
-    ) {
-        return this.kss.splitSentences(
-            text,
-            true,
-            true,
-            5,
-            20000,
-            0,
-            true
-        );
+    public ArrayList<String> splitSentences(String text) {
+        throw new UnsupportedOperationException("STUB: not implemented");
     }
 
-    public ArrayList<ChunkWithIndex> splitChunks(
-        String text,
-        int maxLength,
-        boolean overlap,
-        boolean useHeuristic,
-        boolean useQuotesBracketsProcessing,
-        int maxRecoverStep,
-        int maxRecoverLength
-    ) {
-        return kss.splitChunks(
-            text,
-            maxLength,
-            overlap,
-            useHeuristic,
-            useQuotesBracketsProcessing,
-            maxRecoverStep,
-            maxRecoverLength
-        );
+    public ArrayList<ChunkWithIndex> splitChunks(String text, int maxLength, boolean overlap, boolean useHeuristic, boolean useQuotesBracketsProcessing, int maxRecoverStep, int maxRecoverLength) {
+        throw new UnsupportedOperationException("STUB: not implemented");
     }
 
-    public ArrayList<ChunkWithIndex> splitChunks(
-        String text,
-        int maxLength,
-        boolean overlap,
-        boolean useHeuristic,
-        boolean useQuotesBracketsProcessing,
-        int maxRecoverStep
-    ) {
-        return kss.splitChunks(
-            text,
-            maxLength,
-            overlap,
-            useHeuristic,
-            useQuotesBracketsProcessing,
-            maxRecoverStep,
-            20000
-        );
+    public ArrayList<ChunkWithIndex> splitChunks(String text, int maxLength, boolean overlap, boolean useHeuristic, boolean useQuotesBracketsProcessing, int maxRecoverStep) {
+        throw new UnsupportedOperationException("STUB: not implemented");
     }
 
-    public ArrayList<ChunkWithIndex> splitChunks(
-        String text,
-        int maxLength,
-        boolean overlap,
-        boolean useHeuristic,
-        boolean useQuotesBracketsProcessing
-    ) {
-        return kss.splitChunks(
-            text,
-            maxLength,
-            overlap,
-            useHeuristic,
-            useQuotesBracketsProcessing,
-            5,
-            20000
-        );
+    public ArrayList<ChunkWithIndex> splitChunks(String text, int maxLength, boolean overlap, boolean useHeuristic, boolean useQuotesBracketsProcessing) {
+        throw new UnsupportedOperationException("STUB: not implemented");
     }
 
-    public ArrayList<ChunkWithIndex> splitChunks(
-        String text,
-        int maxLength,
-        boolean overlap,
-        boolean useHeuristic
-    ) {
-        return kss.splitChunks(
-            text,
-            maxLength,
-            overlap,
-            useHeuristic,
-            true,
-            5,
-            20000
-        );
+    public ArrayList<ChunkWithIndex> splitChunks(String text, int maxLength, boolean overlap, boolean useHeuristic) {
+        throw new UnsupportedOperationException("STUB: not implemented");
     }
 
-    public ArrayList<ChunkWithIndex> splitChunks(
-        String text,
-        int maxLength,
-        boolean overlap
-    ) {
-        return kss.splitChunks(
-            text,
-            maxLength,
-            overlap,
-            true,
-            true,
-            5,
-            20000
-        );
+    public ArrayList<ChunkWithIndex> splitChunks(String text, int maxLength, boolean overlap) {
+        throw new UnsupportedOperationException("STUB: not implemented");
     }
 
-    public ArrayList<ChunkWithIndex> splitChunks(
-        String text,
-        int maxLength
-    ) {
-        return kss.splitChunks(
-            text,
-            maxLength,
-            false,
-            true,
-            true,
-            5,
-            20000
-        );
+    public ArrayList<ChunkWithIndex> splitChunks(String text, int maxLength) {
+        throw new UnsupportedOperationException("STUB: not implemented");
     }
 }

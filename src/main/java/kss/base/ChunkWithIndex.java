@@ -1,4 +1,5 @@
 package kss.base;
+
 /*
  * Korean Sentence Splitter
  * Split Korean text into sentences using heuristic algorithm.
@@ -13,6 +14,7 @@ package kss.base;
 public class ChunkWithIndex {
 
     private int start;
+
     private String text;
 
     public ChunkWithIndex(int start, String text) {
@@ -21,18 +23,18 @@ public class ChunkWithIndex {
     }
 
     public int getStart() {
-        return start;
+        throw new UnsupportedOperationException("STUB: not implemented");
     }
 
     public void setStart(int start) {
-        this.start = start;
+        throw new UnsupportedOperationException("STUB: not implemented");
     }
 
     public String getText() {
-        return text;
+        throw new UnsupportedOperationException("STUB: not implemented");
     }
 
     public void setText(String text) {
-        this.text = text;
+        throw new UnsupportedOperationException("STUB: not implemented");
     }
 }

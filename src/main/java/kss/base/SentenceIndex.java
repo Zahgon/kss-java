@@ -1,4 +1,5 @@
 package kss.base;
+
 /*
  * Korean Sentence Splitter
  * Split Korean text into sentences using heuristic algorithm.
@@ -10,10 +11,10 @@ package kss.base;
  * This software may be modified and distributed under the terms
  * of the BSD license.  See the LICENSE file for details.
  */
-
 public class SentenceIndex {
 
     private int start;
+
     private int end;
 
     public SentenceIndex(int start, int end) {
@@ -22,26 +23,23 @@ public class SentenceIndex {
     }
 
     public int getStart() {
-        return start;
+        throw new UnsupportedOperationException("STUB: not implemented");
     }
 
     public void setStart(int start) {
-        this.start = start;
+        throw new UnsupportedOperationException("STUB: not implemented");
     }
 
     public int getEnd() {
-        return end;
+        throw new UnsupportedOperationException("STUB: not implemented");
     }
 
     public void setEnd(int end) {
-        this.end = end;
+        throw new UnsupportedOperationException("STUB: not implemented");
     }
 
     @Override
     public String toString() {
-        return "SentenceIndex{" +
-            "start=" + start +
-            ", end=" + end +
-            '}';
+        throw new UnsupportedOperationException("STUB: not implemented");
     }
 }

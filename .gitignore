@@ -177,3 +177,7 @@ gradle-app.setting
 # JDT-specific (Eclipse Java Development Tools)
 
 # End of https://www.toptal.com/developers/gitignore/api/java,intellij,maven,gradle
+.aider*
+logs/
+.commit0_scripts/
+.github/workflows/

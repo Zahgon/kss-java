@@ -1,4 +1,5 @@
 package kss.base.enumerate;
+
 /*
  * Korean Sentence Splitter
  * Split Korean text into sentences using heuristic algorithm.
@@ -10,8 +11,8 @@ package kss.base.enumerate;
  * This software may be modified and distributed under the terms
  * of the BSD license.  See the LICENSE file for details.
  */
-
 public enum Stats {
+
     DEFAULT(0),
     DA(1),
     YO(2),
@@ -28,6 +29,6 @@ public enum Stats {
     }
 
     public int getValue() {
-        return value;
+        throw new UnsupportedOperationException("STUB: not implemented");
     }
 }

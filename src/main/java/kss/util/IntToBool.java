@@ -1,4 +1,5 @@
 package kss.util;
+
 /*
  * Korean Sentence Splitter
  * Split Korean text into sentences using heuristic algorithm.
@@ -13,11 +14,10 @@ package kss.util;
 public class IntToBool {
 
     /**
-     *
      * @param input
      * @return
      */
     public static boolean intToBool(int input) {
-        return input >= 1;
+        throw new UnsupportedOperationException("STUB: not implemented");
     }
 }
